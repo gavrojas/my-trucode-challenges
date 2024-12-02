@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The kitty place</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer type="module" src="app.js"></script>
+  </head>
+  <body>
+    <h1>The Kitty Store</h1>
+    <main>
+      <kitty-collection></kitty-collection>
+    </main>
+    <kitty-modal></kitty-modal>
+    <!-- kitties-collection-template -->
+    <template id="kitties-collection-template">
+      <section>
+        <ul class="list">
+        </ul>
+      </section>
+    </template>
+    <!-- kitty-card-template -->
+    <template id="kitty-card-template">
+      <article class="card">
+        <h2></h2>
+        <img/>
+        <p></p>
+      </article>
+    </template>
+    
+    <!-- kitty-modal-template -->
+    <template id="kitty-modal-template">
+      <div class="modal">
+        <div class="background"></div>
+        <div class="content">
+          <div class="info">
+            <h2></h2>
+            <p></p>
+            <button id="modal-close">Close</button>
+          </div>
+          <div class="image">
+            <img/>
+          </div>
+        </div>
+      </div>
+    </template>
+  </body>
+</html>

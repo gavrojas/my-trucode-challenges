@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black25: rgba(0, 0, 0, 0.25);
+}
+
+.messages {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+.messages.scrolling {
+  scrollbar-color: var(--black25) transparent; 
+}

@@ -1,0 +1,60 @@
+@layer base {
+  :root {
+    /* colors */
+    --blue: #2128a6;
+    --toolbox: #6f73bf;
+    --lavender: #dce0f2;
+    --turquoise: #30d9c8;
+    --aqua: #77d9cf;
+    --white: #ffffff;
+    --black25: rgba(0, 0, 0, 0.25);
+
+    /* fonts */
+    --sans: 'Roboto Condensed', sans-serif;
+
+    /* font scale */
+    --base-size: 1.2rem;
+    --scale: 1.2;
+    --h1: calc(var(--h2) * var(--scale));
+    --h2: calc(var(--h3) * var(--scale));
+    --h3: calc(var(--h4) * var(--scale));
+    --h4: calc(var(--h5) * var(--scale));
+    --h5: calc(var(--h6) * var(--scale));
+    --h6: var(--base-size);
+
+    /* spacing */
+    --base-spacing: 1rem;
+    --spacing: calc(var(--base-spacing) * var(--scale));
+    --spacing-sm: calc(var(--spacing) / var(--scale));
+    --spacing-lg: calc(var(--spacing) * var(--scale));
+
+    /* radius */
+    --border-radius-base: 5px;
+    --border-radius-lg: calc(var(--border-radius-base) * var(--scale));
+    --border-radius-sm: calc(var(--border-radius-base) / var(--scale));
+  }
+
+  html * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: var(--sans);
+    color: var(--magenta);
+    background-color: var(--white);
+    font-size: var(--base-size);
+    padding: 0;
+    margin: 0;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  button,
+  input {
+    font-family: var(--sans);
+    padding: var(--spacing);
+    font-size: var(--base-size);
+  }
+}

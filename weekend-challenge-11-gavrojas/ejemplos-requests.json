@@ -1,0 +1,98 @@
+{
+  "users": [
+    {
+      "Name": "Ana",
+      "Surname": "Ruiz"
+    },
+    {
+      "Name": "Carlos",
+      "Surname": "López"
+    },
+    {
+      "Name": "María",
+      "Surname": "González"
+    }
+  ],
+  "projects": [
+    {
+      "Name": "Desarrollo de Plataforma Red Social",
+      "DeliveryDate": "2023-09-15",
+      "Tasks": [
+        {
+          "Name": "Implementación del Sistema de Login",
+          "Description": "Desarrollar e integrar apis de autenticación.",
+          "EstimateHours": 80
+        },
+        {
+          "Name": "Diseño de la Interfaz de Usuario",
+          "Description": "Crear el diseño visual de la plataforma.",
+          "EstimateHours": 120
+        }
+      ]
+    },
+    {
+      "Name": "Desarrollo de App de Fitness",
+      "DeliveryDate": "2023-12-01",
+      "Tasks": [
+        {
+          "Name": "Integración con Dispositivos Wearables",
+          "Description": "Desarrollar funcionalidades para sincronización con smartwatches.",
+          "EstimateHours": 150
+        },
+        {
+          "Name": "Creación de Rutinas de Ejercicio",
+          "Description": "Diseñar y programar rutinas de ejercicio personalizadas.",
+          "EstimateHours": 90
+        }
+      ]
+    },
+    {
+      "Name": "Desarrollo de Plataforma de E-Learning",
+      "DeliveryDate": "2024-03-20",
+      "Tasks": [
+        {
+          "Name": "Desarrollo del Sistema de Inscripciones",
+          "Description": "Implementar el módulo de inscripciones y gestión de usuarios.",
+          "EstimateHours": 100
+        },
+        {
+          "Name": "Creación del Contenido Educativo",
+          "Description": "Producir y estructurar materiales educativos en formato digital.",
+          "EstimateHours": 200
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "Name": "Implementación del Sistema de Login",
+      "Description": "Desarrollar e integrar apis de autenticación.",
+      "EstimateHours": 80
+    },
+    {
+      "Name": "Diseño de la Interfaz de Usuario",
+      "Description": "Crear el diseño visual de la plataforma.",
+      "EstimateHours": 120
+    },
+    {
+      "Name": "Integración con Dispositivos Wearables",
+      "Description": "Desarrollar funcionalidades para sincronización con smartwatches.",
+      "EstimateHours": 150
+    },
+    {
+      "Name": "Creación de Rutinas de Ejercicio",
+      "Description": "Diseñar y programar rutinas de ejercicio personalizadas.",
+      "EstimateHours": 90
+    },
+    {
+      "Name": "Desarrollo del Sistema de Inscripciones",
+      "Description": "Implementar el módulo de inscripciones y gestión de usuarios.",
+      "EstimateHours": 100
+    },
+    {
+      "Name": "Creación del Contenido Educativo",
+      "Description": "Producir y estructurar materiales educativos en formato digital.",
+      "EstimateHours": 200
+    }
+  ]
+}

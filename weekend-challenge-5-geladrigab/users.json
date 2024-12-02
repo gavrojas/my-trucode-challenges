@@ -1,0 +1,96 @@
+{
+  "users": [
+    {
+      "userID": 1,
+      "name": "asd",
+      "words": [
+        {
+          "text": "learn",
+          "translation": "aprender",
+          "totalQuestion": 0,
+          "correctAnswers": 0,
+          "retencionRate": 0,
+          "repetitionInterval": 0
+        },
+        {
+          "text": "run",
+          "translation": "correr",
+          "totalQuestion": 0,
+          "correctAnswers": 0,
+          "retencionRate": 0,
+          "repetitionInterval": 0
+        },
+        {
+          "text": "sleep",
+          "translation": "dormir",
+          "totalQuestion": 0,
+          "correctAnswers": 0,
+          "retencionRate": 0,
+          "repetitionInterval": 0
+        },
+        {
+          "text": "eat",
+          "translation": "comer",
+          "totalQuestion": 0,
+          "correctAnswers": 0,
+          "retencionRate": 0,
+          "repetitionInterval": 0
+        },
+        {
+          "text": "walk",
+          "translation": "caminar",
+          "totalQuestion": 0,
+          "correctAnswers": 0,
+          "retencionRate": 0,
+          "repetitionInterval": 0
+        }
+      ]
+    },
+    {
+      "userID": 2,
+      "name": "Gabriela",
+      "words": [
+        {
+          "text": "walk",
+          "translation": "caminar",
+          "totalQuestion": 3,
+          "correctAnswers": 3,
+          "retencionRate": 100,
+          "repetitionInterval": 0
+        },
+        {
+          "text": "learn",
+          "translation": "aprender",
+          "totalQuestion": 5,
+          "correctAnswers": 4,
+          "retencionRate": 80,
+          "repetitionInterval": 0
+        },
+        {
+          "text": "run",
+          "translation": "correr",
+          "totalQuestion": 5,
+          "correctAnswers": 5,
+          "retencionRate": 100,
+          "repetitionInterval": 0
+        },
+        {
+          "text": "sleep",
+          "translation": "dormir",
+          "totalQuestion": 5,
+          "correctAnswers": 4,
+          "retencionRate": 80,
+          "repetitionInterval": 0
+        },
+        {
+          "text": "eat",
+          "translation": "comer",
+          "totalQuestion": 4,
+          "correctAnswers": 4,
+          "retencionRate": 100,
+          "repetitionInterval": 0
+        }
+      ]
+    }
+  ]
+}

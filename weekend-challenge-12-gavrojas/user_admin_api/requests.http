@@ -1,0 +1,68 @@
+#? Users
+GET http://localhost:3333/users
+
+###
+GET http://localhost:3333/users/1
+
+###
+GET http://localhost:3333/users/me
+
+###
+POST http://localhost:3333/auth/register
+Content-Type: application/json
+
+{
+  "username":"test@testing.com",
+  "password":"12345"
+}
+
+###
+POST http://localhost:3333/auth/login
+Content-Type: application/json
+
+{
+  "username":"test@testing.com",
+  "password":"12345"
+}
+
+###
+PUT http://localhost:3333/users/1
+Content-Type: application/json
+
+{
+  "username":"user1@testing.com",
+  "password":"12345Updated"
+}
+
+###
+DELETE http://localhost:3333/users/1
+Content-Type: application/json
+
+#? Entries
+###
+GET http://localhost:3333/entries
+
+###
+GET http://localhost:3333/entries/1
+
+###
+POST http://localhost:3333/entries
+Content-Type: application/json
+
+{
+  "title":"Test",
+  "content":"Test Content"
+}
+
+###
+PUT http://localhost:3333/entries/3
+Content-Type: application/json
+
+{
+  "Title":"Test Updated",
+  "Content":"Test Content Updated",
+}
+
+###
+DELETE http://localhost:3333/entries/3
+Content-Type: application/json
